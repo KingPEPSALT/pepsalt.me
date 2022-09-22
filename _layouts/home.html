@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include default_head.html %}
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    {% include title_bar.html %}
+    <h1> {{ page.title }} </h1>
+    <hr>
+    {{ content }}
+    <br><hr><hr>
+    {% include expanded_post_navigation.html %}
+    <hr>
+</body>
+</html>

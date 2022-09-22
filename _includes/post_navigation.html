@@ -1,0 +1,10 @@
+<ul>
+    {% for post in site.posts %}
+        {% if post.url != page.url %} 
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | | date: "%d %b, %Y" }} - {{ page.tags | join: " | "}}
+                {{ post.content | truncate: 200 }}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

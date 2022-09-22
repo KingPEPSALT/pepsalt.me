@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Genesis"
+date: 2022-09-21 06:40:00 +0100
+author: "Pepsalt"
+tags: ["admin", "misc", "meta"]
+---
+On {{ page.date | date: "%a, the %d of %b, %Y"}}, {{ page.author }} said let there be text, and there was, and it was glorious. This is the first post I have ever made and will remain as the initial post though it may (or may not) be changed in the next few commits.
+
+Generally, I hope for this to become a general blog, though do note I am a Mathematics student and a developer so expect quite a few development/technology blogs as well as mathematical themed blogs. You can usually tell the general content of the blog by its title (and if not, the tags should give you a hint). My other interests will shine through in the form of music and anime reviews when the stochastic wave of literary motivation overcomes my innate desire to do nothing.
+
+For the sake of taking up screen real estate, I'm going to briefly introduce myself so forgive any overlap with the last paragraph. I am **Pepsalt**(he/him), commonly called Pep. I study Computer Science & Mathematics at a university in the United Kingdom with plans to continue onto a PhD in Mathematics. I enjoy metalcore music and Japanese music. I enjoy anime. I enjoy software development. I enjoy maths.
+
+I refuse to write more than this for it will only become obsolete as time moves on and an [about](/about) page exists with an expanded introduction.

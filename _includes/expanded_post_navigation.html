@@ -1,0 +1,9 @@
+{% for post in site.posts %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    Written by <b>{{ post.author }}</b> on <b>{{ post.date | date: "%d/%m/%y"}}</b>
+    <br>
+    <b>Tags:</b> {{ post.tags | join: ", " }}
+    <hr>
+    <p> {{ post.content | truncate: 1000 }}</p>
+    <hr>
+{% endfor %}
