@@ -1,0 +1,36 @@
+.main-content {
+    padding: 0 10vw;
+    text-align: justify;
+}
+.post-head {
+    text-align: center;
+    font-size: 1.5vw;
+}
+.post-head > h1 {
+    font-size: 3vw; 
+}
+
+@media only screen and (min-width: 1600px) {
+    .post-head > h1 {
+        font-size: 1600px*0.03;
+    }
+    .post-head {
+        text-align: center;
+        font-size: 1600px*0.015;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .post-head > h1 {
+        font-size: 800px*0.03;
+    }
+    .post-head {
+        text-align: center;
+        font-size: 800px*0.015;
+    }
+}
+
+pre {
+    padding: 10px;
+}

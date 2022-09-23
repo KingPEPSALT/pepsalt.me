@@ -5,17 +5,11 @@
 </head>
 <body>
     {% include title_bar.html %}
-    <h1>{{ page.title | capitalize }}</h1>
+    {% include post_head.html %}
     <hr>
-    <p>
-        Author: {{ page.author | capitalize }}
-        <br>
-        Date: {{ page.date | date: "%d %b, %Y" }}
-        <br>
-        Tags: {{ page.tags | join: ", " }}
-    </p>
-    <hr>
-    {{ content }}
+    <div class="main-content">
+        {{ content }}
+    </div>
     <hr>
     {% include post_navigation.html %}
 </body>

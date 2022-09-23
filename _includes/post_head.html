@@ -1,0 +1,6 @@
+<div class="post-head">
+    <h1>{{ page.title | capitalize }}</h1>
+    <p> 
+        {{ page.author | capitalize }} | {{ page.date | date: "%d %b, %Y" }} | {{ page.tags | join: ", " }}
+    </p>
+</div>

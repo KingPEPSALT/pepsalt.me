@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #161616;
+    color: #fafafa;
+}
+
+a {
+    color: rgb(118, 118, 255);
+}
+a:visited {
+    color: rgb(118, 118, 255);
+}
+
+a.current {
+    color: white;
+    text-shadow: 0 0 3px #fff
+}
+
+.white-link {
+    color: #fafafa;
+    text-decoration: none;
+}
+.white-link {
+    color: #fafafa;
+}
